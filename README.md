@@ -35,8 +35,8 @@ Please find the attached solution.
 
 6) Example input:
 03/01/1989 02/08/1983
+
 03/01/1989 02/08/1982
-...
 
 Thank you,
 Konrad
