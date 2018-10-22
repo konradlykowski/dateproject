@@ -1,6 +1,6 @@
-package com.loricahealth.time;
+package com.loricahealth.time.constants;
 
-public enum GregCalConst {
+public enum GregCalendarConst {
     INSTANCE;
 
     private final int[] daysToMonth = {0, 31, 59, 90, 120, 151, 181, 212, 243, 273, 304, 334};
