@@ -9,7 +9,10 @@ import lombok.NoArgsConstructor;
 public class GregorianDateOperations {
     private GregDateToNumberAdapter start;
     private GregDateToNumberAdapter end;
-
+    public GregorianDateOperations(GregDateToNumberAdapter start, GregDateToNumberAdapter end) {
+        this.start = start;
+        this.end = end;
+    }
     public int getDaysDifference() {
         return Math.abs(end.toNumberOfDays() - start.toNumberOfDays()) - 1;
     }
